@@ -11,6 +11,6 @@
         - drbd-dkms
         - lvm2
 
-    - name: PV Create
-      lvg:  vg=vg.services pvs=/dev/sdb1
+    - name: Lvm Create
+      lvg:  vg=vg.services pvs=/dev/sdc1
 
