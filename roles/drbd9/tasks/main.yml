@@ -12,5 +12,5 @@
         - lvm2
 
     - name: Lvm Create
-      lvg:  vg=vg.services pvs=/dev/sdc1
+      lvg:  vg=drbdpool pvs=/dev/sdc1
 
