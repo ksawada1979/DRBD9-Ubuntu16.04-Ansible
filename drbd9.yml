@@ -8,3 +8,4 @@
     - ntp
     - timezone
     - drbd9
+    - ssh
