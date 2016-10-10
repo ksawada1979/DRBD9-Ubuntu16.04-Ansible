@@ -1,5 +1,9 @@
 ---
 
+    - name: hosts Change
+      template: src="roles/drbd9/templete/hosts"
+                dest="/etc/hosts"
+
     - name: DRBD9 Repository Get
       apt_repository: repo='ppa:linbit/linbit-drbd9-stack'
 
